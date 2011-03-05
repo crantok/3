@@ -1,0 +1,71 @@
+/**
+ * 3 Mules specific theme modification.
+ */
+
+/**
+ * Contact webform mods.
+ */
+
+#block-webform-client-block-4 #node-4 {
+/*  border-width:1px;
+  border-color:#ff0000;
+  border-style:solid; */
+  width:987px;
+  margin:auto;
+  padding:0;
+}
+
+#block-webform-client-block-4 .submitted {
+  display:none;
+}
+
+#block-webform-client-block-4 p,
+#block-webform-client-block-4 h1,
+#block-webform-client-block-4 h2,
+#block-webform-client-block-4 h3,
+#block-webform-client-block-4 h4,
+#block-webform-client-block-4 h5,
+#block-webform-client-block-4 ul,
+#block-webform-client-block-4 ol {
+  display:none;
+}
+
+#webform-client-form-4 p,
+#webform-client-form-4 h1,
+#webform-client-form-4 h2,
+#webform-client-form-4 h3,
+#webform-client-form-4 h4,
+#webform-client-form-4 h5,
+#webform-client-form-4 ul,
+#webform-client-form-4 ol {
+  display:inline;
+}
+
+
+#block-webform-client-block-4 .messageheader,
+#block-webform-client-block-4 .messagefields,
+#block-webform-client-block-4 .messagebody {
+  color:#666666;
+  float:left;
+  text-align:left;
+}
+
+#block-webform-client-block-4 .messageheader {
+  width:285px;
+}
+#block-webform-client-block-4 .messagefields {
+  margin-left:20px;
+}
+#block-webform-client-block-4 .messagefields input {
+  width:205px;
+}
+#block-webform-client-block-4 .messagebody {
+  margin-left:20px;
+}
+#block-webform-client-block-4 .messagebody textarea {
+  width:445px;
+}
+#block-webform-client-block-4 .messagebody input {
+  float:right;
+  margin-right:10px
+}
