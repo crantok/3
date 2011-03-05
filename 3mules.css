@@ -6,6 +6,10 @@
  * Contact webform mods.
  */
 
+#footer {
+  background-color:#109560;
+}
+
 #block-webform-client-block-4 #node-4 {
 /*  border-width:1px;
   border-color:#ff0000;
@@ -13,6 +17,10 @@
   width:987px;
   margin:auto;
   padding:0;
+}
+
+#block-webform-client-block-4 .clearfix {
+  background-color:#109560;
 }
 
 #block-webform-client-block-4 .submitted {
@@ -42,10 +50,15 @@
 }
 
 
+#block-webform-client-block-4 label {
+  color:#1d1d1d;
+  color:#d1d1d1;
+}
+
 #block-webform-client-block-4 .messageheader,
 #block-webform-client-block-4 .messagefields,
 #block-webform-client-block-4 .messagebody {
-  color:#666666;
+  color:#1d1d1d;
   float:left;
   text-align:left;
 }
@@ -58,14 +71,23 @@
 }
 #block-webform-client-block-4 .messagefields input {
   width:205px;
+  background-color:#12B073;
+  border-style:none;
+  font-size:15px;
 }
 #block-webform-client-block-4 .messagebody {
   margin-left:20px;
 }
 #block-webform-client-block-4 .messagebody textarea {
   width:445px;
+  background-color:#12B073;
+  border-style:none;
+  font-size:16px;
 }
 #block-webform-client-block-4 .messagebody input {
   float:right;
-  margin-right:10px
+  margin-right:10px;
+  background-color:#12B073;
+  border-style:none;
+  font-size:16px;
 }
